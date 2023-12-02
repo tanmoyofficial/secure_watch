@@ -252,3 +252,29 @@ li {
 .services .services-carousel .item .card:hover .card-content {
     justify-content: center;
 }
+
+.serv-desc .des-card {
+    text-align: center;
+}
+
+.serv-desc .des-card .icon {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    background-color: var(--color-theme);
+    color: var(--color-light);
+    font-size: 40px;
+    margin: 0 auto;
+}
+
+.serv-desc .des-card h4 {
+    font-family: var(--font-primary);
+    font-size: 22px;
+    margin: 30px 0;
+}
+
+
+
+.impvideo img {
+    width: 100%;
+}
