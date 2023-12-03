@@ -36,3 +36,7 @@ owl.owlCarousel({
     }
   }
 })
+
+
+// AOS init
+  AOS.init();

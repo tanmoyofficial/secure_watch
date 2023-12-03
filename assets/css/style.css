@@ -482,7 +482,7 @@ li {
 
 footer {
     background-color: #262d3d;
-    padding: 50px 0;
+    padding: 50px 0 0 0;
 }
 
 .footer-logo {
@@ -502,4 +502,36 @@ footer .f-links ul.i li a {
     font-size: 16px;
     color: var(--color-light);
     text-transform: uppercase;
+}
+
+footer .f-links h3 {
+    font-size: 18px;
+    font-weight: 700;
+}
+
+footer .f-links ul li a {
+    font-size: 16px;
+    color: #9b9b9b;
+}
+
+footer .f-links ul li{
+    padding: 5px 0;
+}
+
+footer .f-links ul:not(.i) li a:hover {
+    color: var(--color-light);
+    font-weight: 500;
+}
+
+footer .f-links  .btn.btn-theme{
+    margin-top: 30px;
+}
+
+.footer-bottom {
+    font-size: 14px;
+    color: var(--color-light);
+    margin-top: 50px;
+    border-top: 1px solid #999999;
+    padding: 20px 0;
+
 }
