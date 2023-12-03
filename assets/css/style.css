@@ -16,6 +16,24 @@ body {
     margin: 0;
 }
 
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+ul,
+li {
+    margin: 0;
+    padding: 0;
+}
+
+ul,
+li {
+    list-style: none;
+}
+
 a {
     text-decoration: none;
 }
@@ -273,8 +291,215 @@ li {
     margin: 30px 0;
 }
 
-
+.impvideo {
+    position: relative;
+    background-image: url("/assets/images/infobg.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
 
 .impvideo img {
     width: 100%;
+}
+
+.imgvideo-contents {
+    padding: 50px 0;
+}
+
+.imgvideo-contents .video {
+    position: relative;
+    margin-top: 30px;
+}
+
+.imgvideo-contents .video .play {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 30px;
+    border-radius: 50%;
+    border: 1px solid var(--color-light);
+    background-color: rgba(255, 255, 255, 0.322);
+}
+
+.imgvideo-contents .video .play a {
+    font-size: 30px;
+    color: var(--color-light);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--color-theme);
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+}
+
+.imgvideo-contents .vidtxts {
+    margin: 45px 0;
+    padding: 0 40px;
+}
+
+.imgvideo-contents .vidtxts h4 {
+    position: relative;
+    font-family: var(--font-primary);
+    font-size: 20px;
+    color: var(--color-light);
+    font-weight: 700;
+    text-transform: uppercase;
+    padding-bottom: 20px;
+}
+
+
+.imgvideo-contents .vidtxts h4::after {
+    position: absolute;
+    content: "";
+    height: 2px;
+    width: 20px;
+    background-color: var(--color-theme);
+    bottom: 0;
+    left: 0;
+}
+
+.imgvideo-contents .vidtxts p {
+    font-family: var(--font-primary);
+    font-size: 16px;
+    color: var(--color-light);
+    font-weight: 400;
+    margin: 30px 0;
+}
+
+
+
+.wedeliver {
+    padding: 50px 0;
+}
+
+.wedeliver .count-o {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 230px;
+    height: 230px;
+    border-radius: 50%;
+    border: 1px solid #999999;
+    margin: 0 auto;
+}
+
+.wedeliver .count-o .num {
+    font-family: var(--font-primary);
+    font-size: 60px;
+    color: var(--color-theme);
+    font-weight: 700;
+}
+
+.wedeliver .count-o .name {
+    font-family: var(--font-primary);
+    font-size: 16px;
+    color: #4c4c4c;
+    font-weight: 700;
+}
+
+.wedeliver .btn.btn-sec {
+    display: inline-block;
+    margin: 50px 0;
+    text-transform: uppercase;
+}
+
+.wedeliver .hr {
+    border-bottom: 1px solid #999999;
+}
+
+.whatmakes .imgcards {
+    padding: 50px 0;
+}
+
+.whatmakes .imgcard {
+    position: relative;
+    overflow: hidden;
+    transition: 0.3s ease-in;
+}
+
+.whatmakes .imgcard img {
+    display: block;
+    width: 100%;
+}
+
+.whatmakes .imgcard .text {
+    font-family: var(--font-primary);
+    font-size: 16px;
+    color: var(--color-light);
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: rgba(148, 13, 28, .8);
+    padding: 30px;
+    transition: 0.3s ease-in;
+    transform: translateY(100%);
+}
+
+.whatmakes .imgcard:hover .text {
+    transform: translateY(0);
+}
+
+.contact-sec {
+    color: var(--color-light);
+    background-image: url("/assets/images/bg4.jpg");
+    background-position: center;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    padding: 80px 0;
+}
+
+.contact-sec span {
+    font-family: var(--font-primary);
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.contact-sec h2 {
+    font-family: var(--font-primary);
+    font-size: 60px;
+    color: var(--color-light);
+    font-weight: 700;
+    line-height: 1.2;
+}
+
+
+.contact-sec .btn.btn-theme {
+    border-color: var(--color-light);
+    margin: 60px 0 30px 0;
+}
+
+.contact-sec .btn.btn-theme:hover {
+    background-color: var(--color-light);
+    color: var(--color-theme) !important;
+}
+
+footer {
+    background-color: #262d3d;
+    padding: 50px 0;
+}
+
+.footer-logo {
+    width: 100%;
+}
+
+footer .f-links h3 {
+    font-family: var(--font-primary);
+    font-size: 20px;
+    color: var(--color-light);
+    font-weight: 500;
+    margin-bottom: 30px;
+}
+
+footer .f-links ul.i li a {
+    font-family: var(--font-primary);
+    font-size: 16px;
+    color: var(--color-light);
+    text-transform: uppercase;
 }
