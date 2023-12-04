@@ -92,3 +92,35 @@
         margin-top: 50px;
     }
 }
+
+
+
+@media screen and (max-width: 767px) {
+    .header-logo img {
+        width: 140px;
+    }
+    .banner .bannerimg {
+        width: 100%;
+        height: 300px;
+        object-fit: cover;
+    }
+    .banner .banner-content h1 {
+        font-size: 26px;
+        margin-bottom: 10px;
+    }
+    .banner .banner-content .btns .btn{
+        margin-bottom: 10px;
+    }
+    .banner .banner-content {
+        top: 63%;
+    }
+    .banner .icon{
+        display: none;
+    }
+    .sec-title h2 {
+        font-size: 20px;
+    }
+    .serv-desc .des-card h4 {
+        font-size: 20px;
+    }
+}
