@@ -123,7 +123,7 @@ li {
 
 
 .header-logo img {
-    width:166px;
+    width: 166px;
 }
 
 .header-main .stellarnav>ul>li>a {
@@ -186,7 +186,7 @@ li {
     padding: 30px 0;
 }
 
-.services .services-carousel{
+.services .services-carousel {
     margin: 50px 0;
 }
 
@@ -393,9 +393,10 @@ li {
 }
 
 
-.wedeliver .sec-title{
+.wedeliver .sec-title {
     padding-bottom: 30px;
 }
+
 .wedeliver .count-o {
     display: flex;
     flex-direction: column;
@@ -469,7 +470,7 @@ li {
 
 .contact-sec {
     color: var(--color-light);
-    background-image: url("../assets/images/bg4.jpg");
+    background-image: url("../images/bg4.jpg");
     background-position: center;
     background-size: 100%;
     background-repeat: no-repeat;
@@ -535,7 +536,7 @@ footer .f-links ul li a {
     color: #9b9b9b;
 }
 
-footer .f-links ul li{
+footer .f-links ul li {
     padding: 5px 0;
 }
 
@@ -544,7 +545,7 @@ footer .f-links ul:not(.i) li a:hover {
     font-weight: 500;
 }
 
-footer .f-links  .btn.btn-theme{
+footer .f-links .btn.btn-theme {
     margin-top: 30px;
 }
 
@@ -561,10 +562,12 @@ footer .f-links  .btn.btn-theme{
 .stellarnav .menu-toggle {
     color: var(--color-light);
 }
+
 .stellarnav .menu-toggle span.bars span {
     background: var(--color-light);
 }
-.stellarnav.mobile li a.btn.btn-theme{
+
+.stellarnav.mobile li a.btn.btn-theme {
     border-color: var(--color-theme);
-    margin:  10px;
+    margin: 10px;
 }
