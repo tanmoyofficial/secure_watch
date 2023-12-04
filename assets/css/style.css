@@ -123,7 +123,7 @@ li {
 
 
 .header-logo img {
-    width: 100%;
+    width:166px;
 }
 
 .header-main .stellarnav>ul>li>a {
@@ -152,6 +152,13 @@ li {
     height: auto;
 }
 
+.banner .icon {
+    position: absolute;
+    bottom: 50px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
 .banner .banner-content {
     text-align: center;
     position: absolute;
@@ -163,7 +170,7 @@ li {
 
 .banner .banner-content h1 {
     font-family: var(--font-primary);
-    font-size: 80px;
+    font-size: 4rem;
     color: var(--color-light);
     font-weight: 700;
     margin-bottom: 100px;
@@ -177,6 +184,10 @@ li {
 /* Services */
 .services {
     padding: 30px 0;
+}
+
+.services .services-carousel{
+    margin: 50px 0;
 }
 
 .services .services-carousel .item .card {
@@ -271,6 +282,10 @@ li {
     justify-content: center;
 }
 
+.serv-desc {
+    padding-bottom: 30px;
+}
+
 .serv-desc .des-card {
     text-align: center;
 }
@@ -306,6 +321,8 @@ li {
 .imgvideo-contents {
     padding: 50px 0;
 }
+
+
 
 .imgvideo-contents .video {
     position: relative;
@@ -375,6 +392,10 @@ li {
     padding: 50px 0;
 }
 
+
+.wedeliver .sec-title{
+    padding-bottom: 30px;
+}
 .wedeliver .count-o {
     display: flex;
     flex-direction: column;
@@ -534,4 +555,16 @@ footer .f-links  .btn.btn-theme{
     border-top: 1px solid #999999;
     padding: 20px 0;
 
+}
+
+
+.stellarnav .menu-toggle {
+    color: var(--color-light);
+}
+.stellarnav .menu-toggle span.bars span {
+    background: var(--color-light);
+}
+.stellarnav.mobile li a.btn.btn-theme{
+    border-color: var(--color-theme);
+    margin:  10px;
 }

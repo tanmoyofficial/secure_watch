@@ -1,6 +1,6 @@
 jQuery(document).ready(function ($) {
     jQuery('.stellarnav').stellarNav({
-        breakpoint: 960,
+        breakpoint: 767,
         position: 'right',
 
     });
@@ -22,7 +22,7 @@ var owl = $('.services-carousel');
 owl.owlCarousel({
   margin: 10,
   loop: true,
-  nav: true,
+  dot: true,
   responsive: {
     0: {
       items: 1
@@ -32,7 +32,6 @@ owl.owlCarousel({
     },
     1000: {
       items: 6,
-      nav: true
     }
   }
 })

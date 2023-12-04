@@ -1,0 +1,94 @@
+@media screen and (max-width: 1199px) {
+    .banner .banner-content h1 {
+        margin-bottom: 50px;
+    }
+
+    .impvideo {
+        background-size: cover;
+    }
+}
+
+@media screen and (max-width: 991px) {
+    .banner .banner-content h1 {
+        font-size: 3rem;
+    }
+    .contact-sec {
+        background-size: cover;
+    }
+}
+
+
+@media screen and (max-width: 767px) {
+    .stellarnav.mobile.active ul {
+        background-color: var(--bs-dark);
+    }
+
+    .banner .banner-content h1 {
+        font-size: 36px;
+        margin-bottom: 30px;
+    }
+
+    .header-main {
+        padding: 10px 0 10px 0;
+    }
+
+    .banner .icon {
+        text-align: center;
+        bottom: 20px;
+    }
+
+    .banner .icon img {
+        width: 12px;
+    }
+
+    .sec-title h2 {
+        font-size: 26px;
+        padding-bottom: 10px;
+        margin-bottom: 20px;
+    }
+
+    .sec-title h2::after {
+        width: 60px;
+    }
+
+    .serv-desc .des-card {
+        text-align: center;
+        margin-bottom: 30px;
+    }
+
+    .impvideo {
+        background-size: cover;
+    }
+
+    .imgvideo-contents .vidlogo {
+        width: 60%;
+        margin: 0 auto;
+    }
+
+    .imgvideo-contents {
+        padding: 70px 0;
+    }
+
+    .contact-sec h2 {
+        font-size: 30px;
+    }
+
+    .contact-sec .btn.btn-theme {
+        border-color: var(--color-light);
+        margin: 20px 0 20px 0;
+    }
+
+    .contact-sec {
+        padding: 20px 0;
+    }
+
+    footer .footer-logo {
+        width: 200px;
+        margin: 10px 0;
+    }
+
+    footer .f-links h3 {
+        margin-bottom: 20px;
+        margin-top: 50px;
+    }
+}
