@@ -308,7 +308,7 @@ li {
 
 .impvideo {
     position: relative;
-    background-image: url("/assets/images/infobg.jpg");
+    background-image: url("../images/infobg.jpg");
     background-position: center;
     background-repeat: no-repeat;
     background-size: 100%;
